@@ -7,9 +7,11 @@ html, body {
 }
 
  .monogram {
-	 width: 218.02px;
-	 height: 136.16px;
-	 padding-left: 10px;
+	width: 218.02px;
+    height: 136.16px;
+    top: 7px;
+    left: 16px;
+    position: absolute;
 }
  .home-content {
 	 font-family: 'Montserrat', sans-serif;
@@ -33,7 +35,7 @@ html, body {
 	}
 }
  .doesthiswork {
-	 padding: 0px 0px 110px 0px;
+	 padding: 141px 0px 110px 0px;
 }
  .no-wrap {
 	 white-space: nowrap;
@@ -54,8 +56,8 @@ html, body {
 }
 #top-nav {
 	 position: absolute;
-	 top: 0;
-	 right: 159px;
+	 top: 10px;
+	 right: 19px;
 	 list-style-type: none;
 	 margin: 0;
 	 padding: 0;
@@ -63,7 +65,7 @@ html, body {
 	 background-color: transparent;
 	 font-family: 'Montserrat', sans-serif;
 	 font-weight: 700;
-	 font-size: 27px;
+	 font-size: 32px;
 }
 .top-nav-button {
 	 float: right;
