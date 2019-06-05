@@ -40,8 +40,7 @@ html, body {
 }
  .main {
 	 background: #7600ff url('/assets/vector.svg') no-repeat bottom right;
-	 background-size: auto 116%;
-	 position: fixed;
+	 background-size: auto 114%;
 }
  @media screen and (min-width: 1500px) {
 	 .main {
@@ -53,7 +52,8 @@ html, body {
 	 padding-right: 21px;
 	 padding-left: 21px;
 }
- ul {
+#top-nav {
+	 position: absolute;
 	 top: 0;
 	 right: 159px;
 	 list-style-type: none;
@@ -65,10 +65,10 @@ html, body {
 	 font-weight: 700;
 	 font-size: 27px;
 }
- li {
+.top-nav-button {
 	 float: right;
 }
- li a {
+.top-nav-button a {
 	 display: block;
 	 color: white;
 	 text-align: center;
@@ -79,3 +79,4 @@ html, body {
 .section {
 	position: relative;
 }
+
