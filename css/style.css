@@ -93,23 +93,45 @@ html, body {
 }
 
 #rally-logo {
-    display: block;
+	display: block;
     margin-left: auto;
     margin-right: auto;
-	width: 80%;
-	position: absolute;
-	padding-left: 114px;
-    top: 36px;
-
+    width: 68%;
+    position: absolute;
+    /* padding-left: 114px; */
+    left: 222px;
+	top: 93px;
 }
 
 .visit-button {
 	background-color: transparent;
     color: white;
-    font-size: 37px;
-    padding: 3px 31px;
+    font-size: 29px;
+    font-weight: 430;
+    padding: 9px 46px;
     text-align: center;
-    border: 5px solid white;
+    border: 6px solid white;
+	letter-spacing: 2px;
+	outline: none;
+	cursor: pointer;
+}
+.visit-button a {
+	color: white;
+	text-decoration: none;
+}
+
+.about-button {
+    background-color: transparent;
+    color: white;
+    font-size: 26.5px;
+    padding: 9px 6px;
+    text-align: center;
+    border: 6px solid white;
+    margin-left: 18px;
+    font-weight: 480;
+	letter-spacing: 1px;
+	outline: none;
+	cursor: pointer;
 }
 
 #button-container {
@@ -118,5 +140,5 @@ html, body {
     margin-right: auto;
     position: absolute;
     display: block;
-    left: 562px;
+	left: 406px;
 }

@@ -9,3 +9,11 @@ $(document).ready(function(){
 		controlArrows: true
 	});
 });
+
+document.querySelector(".about-button").addEventListener('click', addStyling);
+
+
+function addStyling() {
+	darkenDiv = document.createElement("div");
+	console.log("this works");
+}
