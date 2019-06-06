@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
 html, body {
 	width: 100%;
 	height: 100%;
@@ -6,7 +7,7 @@ html, body {
 	padding: 0;
 }
 
- .monogram {
+ #monogram {
 	width: 218.02px;
     height: 136.16px;
     top: 7px;
@@ -37,19 +38,28 @@ html, body {
  .doesthiswork {
 	 padding: 141px 0px 110px 0px;
 }
+
  .no-wrap {
 	 white-space: nowrap;
 }
- .main {
-	 background: #7600ff url('/assets/vector.svg') no-repeat bottom right;
-	 background-size: auto 114%;
+
+.main {
+	background: #7600ff url('/assets/vector.svg') no-repeat bottom right;
+	background-size: auto 114%;
 }
- @media screen and (min-width: 1500px) {
-	 .main {
-		 padding: 10.041em;
-		 background: #7600ff url('/assets/vector.svg') no-repeat bottom right;
+
+@media screen and (min-width: 1500px) {
+	.main {
+		padding: 10.041em;
+		background: #7600ff url('/assets/vector.svg') no-repeat bottom right;
 	}
 }
+
+.rally {
+		background: url(/assets/Reinhart-Optimized.png) ;
+		background-size: auto 114%;
+}
+
  #middle-button {
 	 padding-right: 21px;
 	 padding-left: 21px;
@@ -82,3 +92,31 @@ html, body {
 	position: relative;
 }
 
+#rally-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 80%;
+	position: absolute;
+	padding-left: 114px;
+    top: 36px;
+
+}
+
+.visit-button {
+	background-color: transparent;
+    color: white;
+    font-size: 37px;
+    padding: 3px 31px;
+    text-align: center;
+    border: 5px solid white;
+}
+
+#button-container {
+	bottom: 74px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    display: block;
+    left: 562px;
+}
