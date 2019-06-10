@@ -14,6 +14,16 @@ document.querySelector(".about-button").addEventListener('click', addStyling);
 
 
 function addStyling() {
-	darkenDiv = document.createElement("div");
-	console.log("this works");
+	let	darkenDiv = document.createElement('div');
+	let divContainer = document.getElementsByClassName('insert-div');
+	let paddingDiv = document.getElementsByClassName('padding-div');
+	let buttonContainer = document.getElementsByClassName('button-container');
+
+	
+	darkenDiv.classList = "darken-div";
+	divContainer[0].innerHTML = "Hello World!";
+	console.log(buttonContainer);
+	paddingDiv.removeChild(buttonContainer);
+
+	document.body.appendChild(darkenDiv);
 }
