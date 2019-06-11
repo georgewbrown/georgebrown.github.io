@@ -141,3 +141,9 @@ html, body {
     display: block;
 	left: 406px;
 }
+
+.insert-div {
+    background: #7600ff;
+    height: 167px;
+    position: relative;
+}
