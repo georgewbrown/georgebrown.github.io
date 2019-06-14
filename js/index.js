@@ -10,7 +10,7 @@ $(document).ready(function(){
 	});
 });
 
-// document.querySelector(".about-button").addEventListener('click', addStyling);
+//document.querySelector(".about-button").addEventListener('click', addStyling);
 
 
 function addStyling() {
