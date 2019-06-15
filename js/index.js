@@ -10,7 +10,7 @@ $(document).ready(function(){
 	});
 });
 
-//document.querySelector(".about-button").addEventListener('click', addStyling);
+// document.querySelector(".about-button").addEventListener('click', addStyling);
 
 
 function addStyling() {
@@ -27,6 +27,6 @@ function addStyling() {
 	document.body.appendChild(darkenDiv);
 }
 
-function openNav() {
-	document.getElementById("myNav").style.width = "100%";
-  }
+// function openNav() {
+// 	document.getElementById("myNav").style.width = "100%";
+//   }
