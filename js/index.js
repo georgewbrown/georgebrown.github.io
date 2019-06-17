@@ -10,12 +10,11 @@ $(document).ready(function(){
 	});
 });
 
-// document.querySelector(".about-button").addEventListener('click', addStyling);
+document.querySelector(".about-button").addEventListener('click', addStyling);
 
 
 function addStyling() {
 	let	darkenDiv = document.createElement('div');
-	let divContainer = document.getElementsByClassName('insert-div');
 	let buttonContainer = document.getElementsByClassName('button-container');
 
 	
@@ -28,5 +27,9 @@ function addStyling() {
 }
 
 function openNav() {
-	document.getElementById("myNav").style.width = "100%";
+	document.getElementById("overlay-insert").style.width = "100%";
+  }
+
+  function closeNav() {
+	document.getElementById("overlay-insert").style.width = "0%";
   }
