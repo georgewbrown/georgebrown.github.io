@@ -29,14 +29,14 @@
       </div>
     </div>
     <div id="overlay-insert" class="overlay">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="javascript:void(0)" class="closebtn" onclick="removeOverlay()">&times;</a>
     </div>
     <div class="section" id="rally">
       <img src="./assets/rallymark1.svg" id="rally-logo">
       <div class="padding-div">
         <div class="button-container">
           <button class="visit-button"><a href="https://rallyfrontend.herokuapp.com" target="_blank">visit site</a></button>
-          <button class="about-button" onclick="openNav()">about the project</button>
+          <button class="about-button">about the project</button>
         </div>
       </div>
     </div>      
@@ -52,11 +52,13 @@
   <script type="text/javascript" src="/js/fullpage.min.js"></script>
   
   <!--####################################################################################-->
-  <img src="./assets/monogram-white.svg" id="monogram">
-  <ul id="top-nav">
-    <li class="top-nav-button"><a href="#">ABOUT</a></li>
-    <li  class="top-nav-button" id="middle-button"><a href="#">CONTACT</a></li>
-    <li  class="top-nav-button"><a href="https://docs.google.com/document/d/1OlUhtZ47DTcG-lGs-gv9bXathEyV97Su2Hyep1lx4Bc/edit?usp=sharing" target="_blank">RESUME</a></li>
-  </ul>    
+  <div id="nav-bar" >
+    <img src="./assets/monogram-white.svg" id="monogram">
+    <ul id="top-nav">
+      <li class="top-nav-button"><a href="#">ABOUT</a></li>
+      <li  class="top-nav-button" id="middle-button"><a href="#">CONTACT</a></li>
+      <li  class="top-nav-button"><a href="https://docs.google.com/document/d/1OlUhtZ47DTcG-lGs-gv9bXathEyV97Su2Hyep1lx4Bc/edit?usp=sharing" target="_blank">RESUME</a></li>
+    </ul>    
+  </div>
 </body>
 </html>
