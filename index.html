@@ -14,6 +14,13 @@
 <!--############################################################################-->
   </head>
   <body>
+  <img src="./assets/monogram-white.svg" id="monogram">
+  <ul id="top-nav">
+    <li class="top-nav-button"><a href="#">ABOUT</a></li>
+    <li  class="top-nav-button" id="middle-button"><a href="#">CONTACT</a></li>
+    <li  class="top-nav-button"><a href="https://docs.google.com/document/d/1OlUhtZ47DTcG-lGs-gv9bXathEyV97Su2Hyep1lx4Bc/edit?usp=sharing" target="_blank">RESUME</a></li>
+  </ul>    
+
 
   <div id="fullpage">
     <div class="section main">
@@ -21,7 +28,10 @@
         <p class="home-content"> Hi, I’m George! <span class="no-wrap">I’m a DESIGNER &</span> DEVELOPER </p>
       </div>
     </div>
-    <div class="section rally overlay">
+    <div id="myNav" class="overlay" >
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    </div>
+    <div class="section" id="rally">
       <img src="./assets/rallymark1.svg" id="rally-logo">
         <div class="insert-div">
           </div>
@@ -30,7 +40,7 @@
             <button class="visit-button"><a href="https://rallyfrontend.herokuapp.com" target="_blank">visit site</a></button>
             <button class="about-button" onclick="openNav()">about the project</button>
           </div>
-        </div>
+    </div>
     </div>      
     <div class="section">Section 3</div>
     <div class="section">Section 4</div>

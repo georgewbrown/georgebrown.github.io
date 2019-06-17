@@ -27,6 +27,6 @@ function addStyling() {
 	document.body.appendChild(darkenDiv);
 }
 
-// function openNav() {
-// 	document.getElementById("myNav").style.width = "100%";
-//   }
+function openNav() {
+	document.getElementById("myNav").style.width = "100%";
+  }
