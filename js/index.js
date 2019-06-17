@@ -10,21 +10,28 @@ $(document).ready(function () {
 	});
 });
 
-document.querySelector(".about-button").addEventListener('click', addOverlay);
-
 let overlay = document.getElementById("overlay-insert");
 
+document.querySelector(".about-button").addEventListener('click', addOverlay);
+
+
 function addOverlay() {
-	// TODO: Make local var global
-	let navBar = document.getElementById('nav-bar');
-	navBar.classList.add("disabled");
+	// TODO: Make local vars global
+	let navBar = document.getElementById('nav-bar'); // grabs Navigation Bar element
+	let dotScroll = document.getElementById('fp-nav'); // grabs Dot Scroll Bar element
+
+	dotScroll.classList.add("disabled"); // disables Dot Scroll Bar
+	navBar.classList.add("disabled"); //disables Navigation Bar
 	overlay.style.width = "100%";
 }
 
 
 function removeOverlay() {
-	// TODO: Make local var global
-	let navBar = document.getElementById('nav-bar');
-	navBar.classList.remove("disabled");
+	// TODO: Make local vars global
+	let navBar = document.getElementById('nav-bar'); // grabs Navigation Bar element
+	let dotScroll = document.getElementById('fp-nav'); // Dot Scroll Bar Bar element
+
+	navBar.classList.remove("disabled"); // renables Dot Scroll Bar
+	dotScroll.classList.remove("disabled"); // renables Navigation Bar
 	overlay.style.width = "0%";
 }

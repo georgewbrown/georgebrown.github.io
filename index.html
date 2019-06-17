@@ -1,26 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>George Brown's Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="author" content="George Brown">
-<!--########################## STYLE CSS ########################################-->
+  <meta charset="UTF-8">
+  <title>George Brown's Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="George Brown">
+  <!--########################## STYLE CSS ########################################-->
 
-<link rel="stylesheet" type="text/css" href="/css/style.css">
-<link rel="stylesheet" type="text/css" href="/css/fullpage.css">
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <link rel="stylesheet" type="text/css" href="/css/fullpage.css">
 
-<!--############################################################################-->
-  </head>
-  <body>
-  <img src="./assets/monogram-white.svg" id="monogram">
-  <ul id="top-nav">
-    <li class="top-nav-button"><a href="#">ABOUT</a></li>
-    <li  class="top-nav-button" id="middle-button"><a href="#">CONTACT</a></li>
-    <li  class="top-nav-button"><a href="https://docs.google.com/document/d/1OlUhtZ47DTcG-lGs-gv9bXathEyV97Su2Hyep1lx4Bc/edit?usp=sharing" target="_blank">RESUME</a></li>
-  </ul>    
+  <!--############################################################################-->
+</head>
 
+<body>
 
   <div id="fullpage">
     <div class="section main">
@@ -29,36 +24,46 @@
       </div>
     </div>
     <div id="overlay-insert" class="overlay">
-        <a href="javascript:void(0)" class="closebtn" onclick="removeOverlay()">&times;</a>
+      <a href="javascript:void(0)" class="closebtn" onclick="removeOverlay()">&times;</a>
+      <div class="overlay-content">
+        <p class="project-description">Created with a React.js client-side and a Node.js server-side.
+          Rally+ is a full CRUD app, that brings the Overwatch community together.
+          This application brings users together by allowing them to
+          create posts to find others to play with.</p>
+      </div>
     </div>
     <div class="section" id="rally">
       <img src="./assets/rallymark1.svg" id="rally-logo">
       <div class="padding-div">
         <div class="button-container">
-          <button class="visit-button"><a href="https://rallyfrontend.herokuapp.com" target="_blank">visit site</a></button>
+          <button class="visit-button"><a href="https://rallyfrontend.herokuapp.com" target="_blank">visit
+              site</a></button>
           <button class="about-button">about the project</button>
         </div>
       </div>
-    </div>      
+    </div>
     <div class="section">Section 3</div>
     <div class="section">Section 4</div>
     <div class="section">Section 5</div>
   </div>
-  
+
   <!--########################## JAVASCRIPT FILES ########################################-->
-  
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script type="text/javascript" src="/js/index.js"></script>
   <script type="text/javascript" src="/js/fullpage.min.js"></script>
-  
+
   <!--####################################################################################-->
-  <div id="nav-bar" >
+  <div id="nav-bar">
     <img src="./assets/monogram-white.svg" id="monogram">
     <ul id="top-nav">
       <li class="top-nav-button"><a href="#">ABOUT</a></li>
-      <li  class="top-nav-button" id="middle-button"><a href="#">CONTACT</a></li>
-      <li  class="top-nav-button"><a href="https://docs.google.com/document/d/1OlUhtZ47DTcG-lGs-gv9bXathEyV97Su2Hyep1lx4Bc/edit?usp=sharing" target="_blank">RESUME</a></li>
-    </ul>    
+      <li class="top-nav-button" id="middle-button"><a href="#">CONTACT</a></li>
+      <li class="top-nav-button"><a
+          href="https://docs.google.com/document/d/1OlUhtZ47DTcG-lGs-gv9bXathEyV97Su2Hyep1lx4Bc/edit?usp=sharing"
+          target="_blank">RESUME</a></li>
+    </ul>
   </div>
 </body>
+
 </html>
