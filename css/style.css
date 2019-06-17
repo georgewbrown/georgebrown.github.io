@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,800,900');
 
 html,
 body {
@@ -157,8 +157,8 @@ body {
 	z-index: 1;
 	top: 644px;
 	left: 0;
-	background-color: rgb(0, 0, 0);
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgb(34,34,34);
+	background-color: rgba(34,34,34, 0.75);
 	overflow-x: hidden;
 	transition: 0.5s;
 }
@@ -176,14 +176,15 @@ body {
 	padding: 8px;
 	text-decoration: none;
 	font-size: 36px;
-	color: #818181;
+	color: #f1f1f1;
 	display: block;
 	transition: 0.3s;
 }
 
 .overlay a:hover,
 .overlay a:focus {
-	color: #f1f1f1;
+	font-size: 80px;
+	padding: -4px;
 }
 
 .overlay .closebtn {
@@ -204,5 +205,18 @@ body {
 }
 
 .project-description {
-    font-size: 33px;
+	font-size: 30px;
+    margin-top: -41px;
+	white-space: pre;
+}
+
+.project-title {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+	font-size: 120px;
+	letter-spacing: -1px;
+	line-height: 141px;
+	margin: -43px 156px 7px 0px;
+	padding-left: 19px;
+	color: white;
 }
