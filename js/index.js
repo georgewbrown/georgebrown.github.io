@@ -1,5 +1,7 @@
 $(document).ready(function () {
 	$('#fullpage').fullpage({
+		licenseKey: '',
+		anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'lastPage'],
 		easingcss3: `cubic-bezier(0.175, 0.5, 0.5, 1)`,
 		loopTop: false,
 		loopBottom: true,
@@ -25,7 +27,6 @@ function addOverlay() {
 	overlay.style.width = "100%";
 }
 
-
 function removeOverlay() {
 	// TODO: Make local vars global
 	let navBar = document.getElementById('nav-bar'); // grabs Navigation Bar element
@@ -35,3 +36,7 @@ function removeOverlay() {
 	dotScroll.classList.remove("disabled"); // renables Navigation Bar
 	overlay.style.width = "0%";
 }
+
+window.addEventListener(scroll, () => {
+	console.log('scrolled');
+});
