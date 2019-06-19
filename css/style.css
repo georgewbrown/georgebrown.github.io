@@ -206,8 +206,10 @@ body {
 
 .project-description {
 	font-size: 30px;
-    margin-top: -41px;
-	white-space: pre;
+	margin-top: -10px;
+	position: fixed;
+	opacity: 0;
+	transition: 0.5s;
 }
 
 .project-title {
@@ -219,4 +221,7 @@ body {
 	margin: -43px 156px 7px 0px;
 	padding-left: 19px;
 	color: white;
+}
+.project-description-container {
+	padding-left: 26px;
 }
