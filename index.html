@@ -15,7 +15,7 @@
   <!--############################################################################-->
 </head>
 
-<body onscroll="removeOverlay()">
+<body>
 
   <div id="fullpage">
     <div class="section main">
@@ -23,7 +23,7 @@
         <p class="home-content"> Hi, I’m George! <span class="no-wrap">I’m a DESIGNER &</span> DEVELOPER </p>
       </div>
     </div>
-    <div id="overlay-insert" class="overlay">
+    <div id="overlay-insert" class="overlay rally-overlay">
       <a href="javascript:void(0)" class="closebtn" onclick="removeOverlay()">&times;</a>
       <div class="overlay-content">
         <p class="project-title">RALLY+</p>
@@ -46,15 +46,27 @@
         </div>
       </div>
     </div>
+    <div id="overlay-insert" class="overlay nexus-overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="removeOverlay()">&times;</a>
+      <div class="overlay-content">
+        <p class="project-title">NEXUS</p>
+        <div class="project-description-container">
+          <p class="project-description">
+            Created with an Angular.js client-side and a Node.js server-side.
+            Nexus is a full CRUD application that helps small businesses,
+            find the right person for the job.
+        </div>
+      </div>
+    </div>
     <div class="section" id="rally">
-        <img src="./assets/rallymark1.svg" id="rally-logo">
-        <div class="padding-div">
-          <div class="button-container">
-            <button class="visit-button"><a href="https://rallyfrontend.herokuapp.com" target="_blank">visit
-                site</a></button>
-            <button class="about-button" onclick="addOverlay()">about the project</button>
-          </div>
-        </div>  
+      <img src="./assets/rallymark1.svg" id="rally-logo">
+      <div class="padding-div">
+        <div class="button-container">
+          <button class="visit-button"><a href="https://rallyfrontend.herokuapp.com" target="_blank">visit
+              site</a></button>
+          <button class="about-button" onclick="addOverlay()">about the project</button>
+        </div>
+      </div>
     </div>
     <div class="section">Section 4</div>
     <div class="section">Section 5</div>
