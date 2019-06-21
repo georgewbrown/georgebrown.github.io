@@ -64,6 +64,21 @@ body {
 	background-size: auto 114%;
 }
 
+#air-quality {
+	background: url(/assets/air-quality-port.svg);
+	background-size: auto 114%;
+}
+
+#nexus {
+	background: #64B1FF;
+	background-size: auto 114%;
+}
+
+#garden-temple {
+	background: #21CF7C;
+	background-size: auto 114%;
+}
+
 #middle-button {
 	padding-right: 21px;
 	padding-left: 21px;
@@ -109,6 +124,35 @@ body {
 	top: 93px;
 }
 
+#nexus-logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+    width: 65%;
+    position: absolute;
+    left: 286px;
+	top: 77px;
+}
+#garden-logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 59%;
+    position: absolute;
+    left: 276px;
+	top: 107px;
+}
+
+#aq-logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 54%;
+    position: absolute;
+    left: 303px;
+	top: 103px;
+}
+
 .visit-button {
 	background-color: transparent;
 	color: white;
@@ -150,9 +194,12 @@ body {
 	left: 406px;
 }
 
-
 .nexus-overlay {
 	top: 1288px;
+}
+
+.garden-overlay {
+	top: 1932px;
 }
 
 .overlay {
@@ -230,3 +277,14 @@ body {
 .project-description-container {
 	padding-left: 26px;
 }
+
+:root {
+	/* theme color variables to use in HSL declarations */
+	--hue: 220;
+	--sat: 100;
+	--light: 50;
+	/*the threshold at which colors are considered "light". 
+  Range: integers from 0 to 100,
+  recommended 50 - 70 */
+	--threshold: 65;
+  }
