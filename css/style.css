@@ -47,6 +47,19 @@ body {
 	white-space: nowrap;
 }
 
+.display {
+	white-space: nowrap;
+	padding-left: 19px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+	font-size: 120px;
+	letter-spacing: -1px;
+	line-height: 141px;
+	margin-top: 0px;
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+}
+
 .main {
 	background: #7600ff url('/assets/vector.svg') no-repeat bottom right;
 	background-size: auto 114%;
@@ -70,13 +83,19 @@ body {
 }
 
 #nexus {
-	background: #64B1FF;
-	background-size: auto 114%;
+	background: #64B1FF url(/assets/nexus-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 #garden-temple {
-	background: #21CF7C;
-	background-size: auto 114%;
+	background: #21CF7C url(/assets/plants-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.garden-temple-btn {
+	background-color: rgba(33, 207, 124, 0.7) !important;
 }
 
 #middle-button {
@@ -128,18 +147,19 @@ body {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-    width: 65%;
-    position: absolute;
-    left: 286px;
+	width: 65%;
+	position: absolute;
+	left: 286px;
 	top: 77px;
 }
+
 #garden-logo {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 59%;
-    position: absolute;
-    left: 276px;
+	position: absolute;
+	left: 276px;
 	top: 107px;
 }
 
@@ -148,8 +168,8 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	width: 54%;
-    position: absolute;
-    left: 303px;
+	position: absolute;
+	left: 303px;
 	top: 103px;
 }
 
@@ -202,6 +222,10 @@ body {
 	top: 1932px;
 }
 
+.aq-overlay {
+	top: 2576px;
+}
+
 .overlay {
 	width: 0%;
 	height: 100%;
@@ -221,6 +245,11 @@ body {
 	top: 25%;
 	width: 100%;
 	margin-top: 30px;
+}
+
+#aq-overlay-content {
+	top: 11%;
+	margin-top: 69px !important;
 }
 
 .overlay a {
@@ -277,14 +306,3 @@ body {
 .project-description-container {
 	padding-left: 26px;
 }
-
-:root {
-	/* theme color variables to use in HSL declarations */
-	--hue: 220;
-	--sat: 100;
-	--light: 50;
-	/*the threshold at which colors are considered "light". 
-  Range: integers from 0 to 100,
-  recommended 50 - 70 */
-	--threshold: 65;
-  }

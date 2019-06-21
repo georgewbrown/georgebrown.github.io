@@ -18,6 +18,7 @@ $(document).ready(function () {
 	});
 });
 
+// const aqText = document.getElementById('aq-project-description');
 const overlay = document.querySelectorAll(".overlay-insert");
 const projectText = document.getElementsByClassName("project-description");
 
@@ -26,6 +27,7 @@ function addOverlay() {
 	const navBar = document.getElementById('nav-bar'); // grabs Navigation Bar element
 	const dotScroll = document.getElementById('fp-nav'); // grabs Dot Scroll Bar element
 
+	// aqText.style.display ='block';
 	dotScroll.classList.add("disabled"); // disables Dot Scroll Bar
 	navBar.classList.add("disabled"); //disables Navigation Bar
 
@@ -46,6 +48,7 @@ function removeOverlay() {
 	const navBar = document.getElementById('nav-bar'); // grabs Navigation Bar element
 	const dotScroll = document.getElementById('fp-nav'); // Dot Scroll Bar Bar element
 
+	// aqText.style.display ='none';
 	navBar.classList.remove("disabled"); // renables Dot Scroll Bar
 	dotScroll.classList.remove("disabled"); // renables Navigation Bar
 
