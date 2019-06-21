@@ -150,18 +150,13 @@ body {
 	left: 406px;
 }
 
-.rally-overlay {
-	top: 644px;
-	/* width: 0; */
-}
 
 .nexus-overlay {
 	top: 1288px;
-	/* width: 0; */
 }
 
 .overlay {
-	width: 0;
+	width: 0%;
 	height: 100%;
 	position: fixed;
 	z-index: 1;
