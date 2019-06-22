@@ -242,16 +242,27 @@ body {
 	vertical-align: middle;
 }
 
+.rally-overlay {
+	background-color: rgb(34, 34, 34);
+	background-color: rgba(34, 34, 34, 0.75);
+}
+
 .nexus-overlay {
-	top: 1290px
+	top: 1290px;
+	background-color:rgb(100,177,255);
+	background-color:rgba(100,177,255, 0.75);
 }
 
 .garden-overlay {
 	top: 1935px;
+	background-color:rgb(33,207,124);
+	background-color:rgba(33,207,124, 0.75);
 }
 
 .aq-overlay {
 	top: 2580px;
+	background-color:rgb(30,64,230);
+	background-color:rgba(30,64,230, 0.75);
 }
 
 .overlay {
@@ -260,8 +271,6 @@ body {
 	position: fixed;
 	z-index: 1;
 	left: 0;
-	background-color: rgb(34, 34, 34);
-	background-color: rgba(34, 34, 34, 0.75);
 	overflow-x: hidden;
 	transition: 0.5s;
 }
