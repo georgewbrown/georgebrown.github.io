@@ -31,16 +31,22 @@ body {
 	.home-content {
 		font-family: 'Montserrat', sans-serif;
 		font-weight: 700;
-		font-size: 120px;
+		font-size: 190px;
 		letter-spacing: 2px;
-		line-height: 120px;
-		margin-bottom: 80px;
+		line-height: 205px;
+		margin-left: -139px;
+		margin-bottom: 0px;
+		margin-top: 185px;
 		color: white;
 	}
 }
 
 .padding-div {
 	padding: 141px 0px 110px 0px;
+}
+
+.contact-about-padding-div {
+	padding: 147px 0px 110px 0px;
 }
 
 .no-wrap {
@@ -185,6 +191,21 @@ body {
 	cursor: pointer;
 }
 
+@media screen and (min-width: 1500px) {
+	.visit-button {
+		background-color: transparent;
+		color: white;
+		font-size: 46px;
+		font-weight: 430;
+		padding: 9px 87px;
+		text-align: center;
+		border: 6px solid white;
+		letter-spacing: 2px;
+		outline: none;
+		cursor: pointer;
+	}
+}
+
 .visit-button a {
 	color: white;
 	text-decoration: none;
@@ -204,6 +225,22 @@ body {
 	cursor: pointer;
 }
 
+@media screen and (min-width: 1500px) {
+	.about-button {
+		background-color: transparent;
+		color: white;
+		font-size: 43px;
+		padding: 9px 16px;
+		text-align: center;
+		border: 6px solid white;
+		margin-left: 18px;
+		font-weight: 480;
+		letter-spacing: 1px;
+		outline: none;
+		cursor: pointer;
+	}
+}
+
 .button-container {
 	bottom: 74px;
 	margin-left: auto;
@@ -211,6 +248,17 @@ body {
 	position: absolute;
 	display: block;
 	left: 406px;
+}
+
+@media screen and (min-width: 1500px) {
+	.button-container {
+		bottom: 140px;
+		margin-left: auto;
+		margin-right: auto;
+		position: absolute;
+		display: block;
+		left: 545px;
+	}
 }
 
 .dev-des-container {
@@ -342,4 +390,13 @@ body {
 
 .project-description-container {
 	padding-left: 26px;
+}
+
+#message{
+	resize: none;
+	outline: none;
+	border-radius: 16px;
+    border-style: none;
+    width: 530px;
+    height: 100%;
 }
