@@ -14,45 +14,44 @@
 <body>
     <div class="main">
         <div class="contact-about-padding-div">
-               <!--  <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/396gbrown@gmail.com" method="post">
-                      <input type="text" name="name" id="name" placeholder="First and Last" required="">
-                      <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-                      <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
-                      <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-                    <input type="submit" value="Submit">
-                  </form>
-         <p class="home-content"> Hi, I’m George! <span class="no-wrap">I’m a DESIGNER &</span> DEVELOPER </p>
-         -->
-        <div class="container">
+          <div class="container">
           <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/396gbrown@gmail.com" method="post">
             <div class="row">
               <div class="col-25">
               </div>
               <div class="col-75">
-                <input type="text" name="name" id="name" placeholder="First and Last" required="">
+                <input type="text" name="name" id="name" placeholder="who are you?" required="">
               </div>
             </div>
             <div class="row">
               <div class="col-25">
               </div>
               <div class="col-75">
-                <input type="email" name="_replyto" id="email-address" pattern=".+@globex.com" placeholder="email@domain.tld" required="">
+                <input type="email" name="_replyto" id="email-address"  placeholder="what’s your email?" required="">
               </div>
             </div>
             <div class="row">
               <div class="col-25">
               </div>
               <div class="col-75">
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
               </div>
             </div>
             <div class="row">
-              <input type="submit" value="Submit">
+              <div class="col-25">
+              </div>
+              <div class="col-75">
+                <textarea cols="60" rows="5" id="message" name="message" placeholder="please type your message"></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <input class="this-button" type="submit" value="Submit">
             </div>
           </form>
         </div>
       </div> 
     </div>
+    <p class="contact-content">Let’s Connect!</p>
       <div id="nav-bar">
         <a href='/index.html'>
             <img src="./assets/monogram-white.svg" id="monogram">
