@@ -416,12 +416,13 @@ body {
 }
 
 .contact-content {
+	width: 580px;
 	font-family: 'Montserrat', sans-serif;
 		font-weight: 700;
 		font-size: 120px;
 		letter-spacing: 2px;
 		line-height: 141px;
-		right: 401px;
+		right: 670px;
 		margin: auto;
 		padding-left: 36px;
 		color: white;
@@ -478,19 +479,30 @@ label {
 
 /* Style the submit button */
 input[type=submit] {
-	background-color: transparent;
-	color: white;
-	padding: 12px 20px;
-	border: none;
-	border-radius: 4px;
-	cursor: pointer;
+	background-color: white;
+    color: white;
+    padding: 12px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #7600ff;
 	float: right;
+	outline: none;
+}
+
+input[type=submit]:hover {
+	background-color: whitesmoke;
+	opacity: 1;
+	color: #5700bb;
 }
 
 /* Style the container */
 .container {
 	border-radius: 5px;
-	padding: 20px 20px 19px 462px;
+	padding: 11px 20px 19px 462px;
 }
 
 /* Floating column for labels: 25% width */
