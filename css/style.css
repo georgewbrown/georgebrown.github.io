@@ -296,19 +296,19 @@ body {
 }
 
 .nexus-overlay {
-	top: 1290px;
+	top: 1316px;
 	background-color: rgb(100, 177, 255);
 	background-color: rgba(100, 177, 255, 0.75);
 }
 
 .garden-overlay {
-	top: 1935px;
+	top: 1960px;
 	background-color: rgb(33, 207, 124);
 	background-color: rgba(33, 207, 124, 0.75);
 }
 
 .aq-overlay {
-	top: 2580px;
+	top: 2604px;
 	background-color: rgb(30, 64, 230);
 	background-color: rgba(30, 64, 230, 0.75);
 }
