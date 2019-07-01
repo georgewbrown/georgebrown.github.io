@@ -38,6 +38,7 @@ body {
 	margin: -9px 156px 7px 0px;
 	padding-left: 19px;
 	color: white;
+	animation-duration: 3s;
 }
 
 @media screen and (min-width: 1500px) {
@@ -526,7 +527,12 @@ body {
 	height: 100%;
 	font-weight: 700;
 	color: #979797;
-
+}
+@media screen and (min-width: 1500px) {
+	#name {
+		width: 710px;
+		height: 100%;
+	}
 }
 
 #email-address {
@@ -538,11 +544,25 @@ body {
 	font-weight: 700;
 	color: #979797;
 }
+@media screen and (min-width: 1500px) {
+	#email-address {
+		margin-bottom: 10px;
+		margin-top: 10px;
+		width: 710px;
+		font-weight: 700;
+	}
+}
+
 
 .contact-about-padding-div {
 	padding: 135px 0px 0px 0px;
 }
 
+@media screen and (min-width: 1500px) {
+.contact-about-padding-div {
+	padding: 948px 0px 0px 0px;
+	}
+}
 
 .contact-content {
 	width: 580px;
@@ -557,6 +577,15 @@ body {
 	color: white;
 	bottom: 160px;
 	position: absolute;
+}
+
+@media screen and (min-width: 1500px) {
+	.contact-content {
+		font-size: 200px;
+		line-height: 201px;
+		left: -560px;
+		bottom: 270px;
+	}
 }
 
 input[type=text],
@@ -580,6 +609,14 @@ textarea {
 	width: 530px;
 	color: #979797;
 	overflow-y: auto;
+}
+
+@media screen and (min-width: 1500px) {
+	textarea {
+		height: 469px;
+		width: 710px;
+		margin-bottom: 5px;
+	}
 }
 
 ::placeholder {
@@ -624,17 +661,38 @@ input[type=submit] {
 	outline: none;
 }
 
+@media screen and (min-width: 1500px) {
+	input[type=submit] {
+	font-size: 28px;
+	margin-right: -175px;
+	}
+}
+
 input[type=submit]:hover {
 	background-color: whitesmoke;
 	opacity: 1;
 	color: #5700bb;
 }
 
+
+@media screen and (min-width: 1500px) {
+form {
+	top: 236px;
+    right: 260px;
+    position: absolute;
+	}
+}
 /* Style the container */
 .container {
 	border-radius: 5px;
 	padding: 11px 20px 19px 462px;
 }
+@media screen and (min-width: 1500px) {
+.container {
+	padding: 11px 922px 19px 462px;
+	}	
+}
+	
 
 /* Floating column for labels: 25% width */
 .col-25 {
@@ -655,16 +713,6 @@ input[type=submit]:hover {
 	content: "";
 	display: table;
 	clear: both;
-}
-@media screen and (min-width: 1500px) {
-	
-	.col-25,
-	.col-75,
-	input[type=submit] {
-		width: 100%;
-		margin-top: 0;
-	}
-
 }
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
