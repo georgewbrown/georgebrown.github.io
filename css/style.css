@@ -122,6 +122,13 @@ body {
 	background-repeat: no-repeat;
 }
 
+@media screen and (min-width: 1500px) {
+	#garden-temple {
+		background-repeat: round;
+	}
+}
+
+
 .garden-temple-btn {
 	background-color: rgba(33, 207, 124, 0.7) !important;
 }
