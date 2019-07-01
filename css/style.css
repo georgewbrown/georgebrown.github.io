@@ -14,7 +14,20 @@ body {
 	top: 7px;
 	left: 16px;
 	position: absolute;
+	cursor: pointer;
 }
+
+@media screen and (min-width: 1500px) {
+	#monogram {
+		width: 349.02px;
+		height: 180.02px;
+		top: 9px;
+		left: 16px;
+		position: absolute;
+		cursor: pointer;
+	}
+}
+
 
 .home-content {
 	font-family: 'Montserrat', sans-serif;
@@ -45,10 +58,6 @@ body {
 	padding: 141px 0px 110px 0px;
 }
 
-.contact-about-padding-div {
-	padding: 135px 0px 0px 0px;
-}
-
 .no-wrap {
 	white-space: nowrap;
 }
@@ -65,6 +74,13 @@ body {
 	color: white;
 }
 
+@media screen and (min-width: 1500px) {
+	.display {
+		line-height: 162px;
+	}
+}
+
+
 .main {
 	background: #7600ff url('../assets/vector.svg') no-repeat bottom right;
 	background-size: auto 114%;
@@ -72,19 +88,26 @@ body {
 
 @media screen and (min-width: 1500px) {
 	.main {
-		padding: 10.041em;
 		background: #7600ff url('../assets/vector.svg') no-repeat bottom right;
+	}
+
+	.padding-div {
+		padding-top: 0px;
+		padding-bottom: 110px;
+		padding-left: 160px;
 	}
 }
 
 #rally {
 	background: url(../assets/Reinhart-Optimized.png);
-	background-size: auto 114%;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 #air-quality {
 	background: url(../assets/air-quality-port.svg);
-	background-size: auto 114%;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 #nexus {
@@ -122,6 +145,12 @@ body {
 	font-size: 32px;
 }
 
+@media screen and (min-width: 1500px) {
+	#top-nav {
+		font-size: 43px;
+	}
+}
+
 .top-nav-button {
 	float: right;
 }
@@ -148,6 +177,15 @@ body {
 	top: 93px;
 }
 
+@media screen and (min-width: 1500px) {
+	#rally-logo {
+		width: 66%;
+		left: 330px;
+		top: 144px;
+	}
+}
+
+
 #nexus-logo {
 	display: block;
 	margin-left: auto;
@@ -156,6 +194,14 @@ body {
 	position: absolute;
 	left: 286px;
 	top: 77px;
+}
+
+@media screen and (min-width: 1500px) {
+	#nexus-logo {
+		width: 58%;
+		left: 472px;
+		top: 105px;
+	}
 }
 
 #garden-logo {
@@ -168,6 +214,14 @@ body {
 	top: 107px;
 }
 
+@media screen and (min-width: 1500px) {
+	#garden-logo {
+		width: 60%;
+		left: 420px;
+		top: 105px;
+	}
+}
+
 #aq-logo {
 	display: block;
 	margin-left: auto;
@@ -176,6 +230,14 @@ body {
 	position: absolute;
 	left: 303px;
 	top: 103px;
+}
+
+@media screen and (min-width: 1500px) {
+	#aq-logo {
+		width: 50%;
+		left: 460px;
+		top: 125px;
+	}
 }
 
 .visit-button {
@@ -257,7 +319,7 @@ body {
 		margin-right: auto;
 		position: absolute;
 		display: block;
-		left: 545px;
+		left: 617px;
 	}
 }
 
@@ -271,23 +333,40 @@ body {
 	white-space: nowrap;
 }
 
+@media screen and (min-width: 1500px) {
+	.dev-des-container {
+		bottom: -415px;
+		left: 616px;
+	}
+}
+
 .dev-des {
 	display: inline-block;
 }
 
 .dev-des-text {
-	/* float: right; */
 	padding-left: 10px;
 	padding-right: 10px;
 	font-size: 31px;
 	display: inline-block;
 	vertical-align: middle;
+}
 
+@media screen and (min-width: 1500px) {
+	.dev-des-text {
+		font-size: 51px;
+	}
 }
 
 .dev-des-circle {
 	width: 51px;
 	vertical-align: middle;
+}
+
+@media screen and (min-width: 1500px) {
+	.dev-des-circle {
+		width: 56px;
+	}
 }
 
 .rally-overlay {
@@ -301,17 +380,37 @@ body {
 	background-color: rgba(100, 177, 255, 0.75);
 }
 
+@media screen and (min-width: 1500px) {
+	.nexus-overlay {
+		top: 1821px;
+	}
+}
+
 .garden-overlay {
-	top: 1960px;
+	top: 1956px;
 	background-color: rgb(33, 207, 124);
 	background-color: rgba(33, 207, 124, 0.75);
 }
+
+@media screen and (min-width: 1500px) {
+	.garden-overlay {
+		top: 2730px;
+	}
+}
+
 
 .aq-overlay {
 	top: 2604px;
 	background-color: rgb(30, 64, 230);
 	background-color: rgba(30, 64, 230, 0.75);
 }
+
+@media screen and (min-width: 1500px) {
+	.aq-overlay {
+		top: 3640px;
+	}
+}
+
 
 .overlay {
 	width: 0%;
@@ -335,6 +434,12 @@ body {
 .lng-txt-overlay-content {
 	top: 10%;
 	width: 878px;
+}
+
+@media screen and (min-width: 1500px) {
+	.lng-txt-overlay-content {
+		top: 11%
+	}
 }
 
 .overlay a {
@@ -377,6 +482,12 @@ body {
 	transition: 0.5s;
 }
 
+@media screen and (min-width: 1500px) {
+	.project-description {
+		font-size: 45px;
+	}
+}
+
 .project-title {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 800;
@@ -386,6 +497,12 @@ body {
 	margin: -43px 156px 7px 0px;
 	padding-left: 19px;
 	color: white;
+}
+
+@media screen and (min-width: 1500px) {
+	.project-title {
+		font-size: 162px;
+	}
 }
 
 .project-description-container {
@@ -415,22 +532,30 @@ body {
 	color: #979797;
 }
 
+.contact-about-padding-div {
+	padding: 135px 0px 0px 0px;
+}
+
+
 .contact-content {
 	width: 580px;
 	font-family: 'Montserrat', sans-serif;
-		font-weight: 700;
-		font-size: 120px;
-		letter-spacing: 2px;
-		line-height: 141px;
-		right: 670px;
-		margin: auto;
-		padding-left: 36px;
-		color: white;
-		bottom: 160px;
-		position: absolute;
+	font-weight: 700;
+	font-size: 120px;
+	letter-spacing: 2px;
+	line-height: 141px;
+	right: 670px;
+	margin: auto;
+	padding-left: 36px;
+	color: white;
+	bottom: 160px;
+	position: absolute;
 }
 
-input[type=text],[type=email],select,textarea {
+input[type=text],
+[type=email],
+select,
+textarea {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	width: 100%;
@@ -448,7 +573,6 @@ textarea {
 	width: 530px;
 	color: #979797;
 	overflow-y: auto;
-	/* overflow: hidden; */
 }
 
 ::placeholder {
@@ -480,15 +604,15 @@ label {
 /* Style the submit button */
 input[type=submit] {
 	background-color: white;
-    color: white;
-    padding: 12px 20px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    font-size: 18px;
-    color: #7600ff;
+	color: white;
+	padding: 12px 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	font-size: 18px;
+	color: #7600ff;
 	float: right;
 	outline: none;
 }
@@ -525,7 +649,16 @@ input[type=submit]:hover {
 	display: table;
 	clear: both;
 }
+@media screen and (min-width: 1500px) {
+	
+	.col-25,
+	.col-75,
+	input[type=submit] {
+		width: 100%;
+		margin-top: 0;
+	}
 
+}
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
 
@@ -539,21 +672,21 @@ input[type=submit]:hover {
 
 ::-webkit-scrollbar {
 	width: 20px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
+}
+
+/* Track */
+::-webkit-scrollbar-track {
 	/* box-shadow: inset 0 0 5px grey;  */
 	border-radius: 10px;
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-	background: #7600ff; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #7600ff;
 	border-radius: 10px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-	background: #5700bb; 
-  }
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #5700bb;
+}
