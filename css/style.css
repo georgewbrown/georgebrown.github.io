@@ -66,35 +66,35 @@ body {
 }
 
 .main {
-	background: #7600ff url('/assets/vector.svg') no-repeat bottom right;
+	background: #7600ff url('../assets/vector.svg') no-repeat bottom right;
 	background-size: auto 114%;
 }
 
 @media screen and (min-width: 1500px) {
 	.main {
 		padding: 10.041em;
-		background: #7600ff url('/assets/vector.svg') no-repeat bottom right;
+		background: #7600ff url('../assets/vector.svg') no-repeat bottom right;
 	}
 }
 
 #rally {
-	background: url(/assets/Reinhart-Optimized.png);
+	background: url(../assets/Reinhart-Optimized.png);
 	background-size: auto 114%;
 }
 
 #air-quality {
-	background: url(/assets/air-quality-port.svg);
+	background: url(../assets/air-quality-port.svg);
 	background-size: auto 114%;
 }
 
 #nexus {
-	background: #64B1FF url(/assets/nexus-bg.png);
+	background: #64B1FF url(../assets/nexus-bg.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 #garden-temple {
-	background: #21CF7C url(/assets/plants-bg.png);
+	background: #21CF7C url(../assets/plants-bg.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
