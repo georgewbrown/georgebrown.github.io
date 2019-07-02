@@ -54,6 +54,7 @@ body {
 	background: #7600ff url('../assets/vector.svg') no-repeat bottom right;
 	background-size: auto 114%;
 }
+
 #rally {
 	background: url(../assets/Reinhart-Optimized.png);
 	background-size: cover;
@@ -438,10 +439,10 @@ input[type=submit]:hover {
 	color: #5700bb;
 }
 
-#about-pic{
+#about-pic {
 	position: absolute;
 	width: 281px;
-    top: 91px;
+	top: 91px;
 	padding-left: 40px;
 }
 
@@ -450,37 +451,38 @@ input[type=submit]:hover {
 }
 
 #about-text-container {
-    position: absolute;
+	position: absolute;
 	width: 911px;
-    border-radius: 30px;
-    top: 110px;
+	border-radius: 30px;
+	top: 120px;
 	right: 10px;
 }
 
-#about-header{
+#about-header {
 	color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    font-weight: 800;
-    position: absolute;
-    top: 1px;
-    right: 504px;
-    white-space: nowrap;}
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	font-weight: 800;
+	position: absolute;
+	top: -9px;
+	right: 374px;
+	white-space: nowrap;
+}
 
 #about-text {
 	background: rgba(118, 0, 255, .64);
 	color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    width: 100%;
-    padding: 12px;
-    border: none;
-    border-radius: 36px;
-    box-sizing: border-box;
-    resize: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	width: 100%;
+	padding: 12px;
+	border: none;
+	border-radius: 36px;
+	box-sizing: border-box;
+	resize: none;
 	outline: none;
 	font-weight: 600;
-    font-size: 30px;
+	font-size: 30px;
 }
 
 .skils-container {
@@ -491,7 +493,7 @@ input[type=submit]:hover {
 
 .skill-text {
 	color: white;
-    font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
 	font-size: 45px;
 	vertical-align: middle;
@@ -500,8 +502,8 @@ input[type=submit]:hover {
 
 #skill-icons {
 	height: 100%;
-    width: 870px;
-    align-items: center;
+	width: 870px;
+	align-items: center;
 	vertical-align: middle;
 	padding-left: 10px;
 }
@@ -511,7 +513,7 @@ input[type=submit]:hover {
 	border-radius: 5px;
 	padding: 11px 20px 19px 462px;
 }
-	
+
 /* Floating column for labels: 25% width */
 .col-25 {
 	float: left;
@@ -699,12 +701,12 @@ input[type=submit]:hover {
 		width: 710px;
 		margin-bottom: 5px;
 	}
-	
+
 	input[type=submit] {
 		font-size: 28px;
 		margin-right: -175px;
 	}
-	
+
 	form {
 		top: 236px;
 		right: 260px;
@@ -713,6 +715,6 @@ input[type=submit]:hover {
 
 	.container {
 		padding: 11px 922px 19px 462px;
-		}	
+	}
 
 }
