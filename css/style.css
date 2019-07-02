@@ -473,7 +473,6 @@ input[type=submit]:hover {
 	background: rgba(118, 0, 255, .64);
 	color: white;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 20px;
 	width: 100%;
 	padding: 12px;
 	border: none;
@@ -717,4 +716,44 @@ input[type=submit]:hover {
 		padding: 11px 922px 19px 462px;
 	}
 
+	.about-padding-div {
+		padding: 978px 0px 0px 0px;
+	}
+
+	#about-pic {
+		position: absolute;
+		width: 371px;
+		top: 111px;
+		padding-left: 90px;
+	}
+
+	#about-text-container {
+		width: 1331px;
+		top: 200px;
+		right: 100px;
+	}
+
+	#about-text {
+		font-size: 45px;
+	}
+
+	#about-header {
+		font-size: 69px;
+		top: -19px;
+		right: 408px;
+		line-height: 50px;
+	}
+
+	.skils-container {
+		bottom: 10px;
+		left: 281px;
+	}
+
+	.skill-text {
+		font-size: 55px;
+	}
+
+	#skill-icons {
+		width: 1270px;
+	}
 }
