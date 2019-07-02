@@ -17,17 +17,6 @@ body {
 	cursor: pointer;
 }
 
-@media screen and (min-width: 1500px) {
-	#monogram {
-		width: 349.02px;
-		height: 180.02px;
-		top: 9px;
-		left: 16px;
-		position: absolute;
-		cursor: pointer;
-	}
-}
-
 
 .home-content {
 	font-family: 'Montserrat', sans-serif;
@@ -39,20 +28,6 @@ body {
 	padding-left: 19px;
 	color: white;
 	animation-duration: 3s;
-}
-
-@media screen and (min-width: 1500px) {
-	.home-content {
-		font-family: 'Montserrat', sans-serif;
-		font-weight: 700;
-		font-size: 190px;
-		letter-spacing: 2px;
-		line-height: 205px;
-		margin-left: -139px;
-		margin-bottom: 0px;
-		margin-top: 185px;
-		color: white;
-	}
 }
 
 .padding-div {
@@ -75,30 +50,10 @@ body {
 	color: white;
 }
 
-@media screen and (min-width: 1500px) {
-	.display {
-		line-height: 162px;
-	}
-}
-
-
 .main {
 	background: #7600ff url('../assets/vector.svg') no-repeat bottom right;
 	background-size: auto 114%;
 }
-
-@media screen and (min-width: 1500px) {
-	.main {
-		background: #7600ff url('../assets/vector.svg') no-repeat bottom right;
-	}
-
-	.padding-div {
-		padding-top: 0px;
-		padding-bottom: 110px;
-		padding-left: 160px;
-	}
-}
-
 #rally {
 	background: url(../assets/Reinhart-Optimized.png);
 	background-size: cover;
@@ -123,13 +78,6 @@ body {
 	background-repeat: no-repeat;
 }
 
-@media screen and (min-width: 1500px) {
-	#garden-temple {
-		background-repeat: round;
-	}
-}
-
-
 .garden-temple-btn {
 	background-color: rgba(33, 207, 124, 0.7) !important;
 }
@@ -151,12 +99,6 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	font-size: 32px;
-}
-
-@media screen and (min-width: 1500px) {
-	#top-nav {
-		font-size: 43px;
-	}
 }
 
 .top-nav-button {
@@ -185,15 +127,6 @@ body {
 	top: 93px;
 }
 
-@media screen and (min-width: 1500px) {
-	#rally-logo {
-		width: 66%;
-		left: 330px;
-		top: 144px;
-	}
-}
-
-
 #nexus-logo {
 	display: block;
 	margin-left: auto;
@@ -202,14 +135,6 @@ body {
 	position: absolute;
 	left: 286px;
 	top: 77px;
-}
-
-@media screen and (min-width: 1500px) {
-	#nexus-logo {
-		width: 58%;
-		left: 472px;
-		top: 105px;
-	}
 }
 
 #garden-logo {
@@ -222,14 +147,6 @@ body {
 	top: 107px;
 }
 
-@media screen and (min-width: 1500px) {
-	#garden-logo {
-		width: 60%;
-		left: 420px;
-		top: 105px;
-	}
-}
-
 #aq-logo {
 	display: block;
 	margin-left: auto;
@@ -238,14 +155,6 @@ body {
 	position: absolute;
 	left: 303px;
 	top: 103px;
-}
-
-@media screen and (min-width: 1500px) {
-	#aq-logo {
-		width: 50%;
-		left: 460px;
-		top: 125px;
-	}
 }
 
 .visit-button {
@@ -259,21 +168,6 @@ body {
 	letter-spacing: 2px;
 	outline: none;
 	cursor: pointer;
-}
-
-@media screen and (min-width: 1500px) {
-	.visit-button {
-		background-color: transparent;
-		color: white;
-		font-size: 46px;
-		font-weight: 430;
-		padding: 9px 87px;
-		text-align: center;
-		border: 6px solid white;
-		letter-spacing: 2px;
-		outline: none;
-		cursor: pointer;
-	}
 }
 
 .visit-button a {
@@ -295,22 +189,6 @@ body {
 	cursor: pointer;
 }
 
-@media screen and (min-width: 1500px) {
-	.about-button {
-		background-color: transparent;
-		color: white;
-		font-size: 43px;
-		padding: 9px 16px;
-		text-align: center;
-		border: 6px solid white;
-		margin-left: 18px;
-		font-weight: 480;
-		letter-spacing: 1px;
-		outline: none;
-		cursor: pointer;
-	}
-}
-
 .button-container {
 	bottom: 74px;
 	margin-left: auto;
@@ -318,17 +196,6 @@ body {
 	position: absolute;
 	display: block;
 	left: 406px;
-}
-
-@media screen and (min-width: 1500px) {
-	.button-container {
-		bottom: 140px;
-		margin-left: auto;
-		margin-right: auto;
-		position: absolute;
-		display: block;
-		left: 617px;
-	}
 }
 
 .dev-des-container {
@@ -339,13 +206,6 @@ body {
 	display: inline-block;
 	left: 406px;
 	white-space: nowrap;
-}
-
-@media screen and (min-width: 1500px) {
-	.dev-des-container {
-		bottom: -415px;
-		left: 616px;
-	}
 }
 
 .dev-des {
@@ -360,21 +220,9 @@ body {
 	vertical-align: middle;
 }
 
-@media screen and (min-width: 1500px) {
-	.dev-des-text {
-		font-size: 51px;
-	}
-}
-
 .dev-des-circle {
 	width: 51px;
 	vertical-align: middle;
-}
-
-@media screen and (min-width: 1500px) {
-	.dev-des-circle {
-		width: 56px;
-	}
 }
 
 .rally-overlay {
@@ -388,37 +236,17 @@ body {
 	background-color: rgba(100, 177, 255, 0.75);
 }
 
-@media screen and (min-width: 1500px) {
-	.nexus-overlay {
-		top: 1821px;
-	}
-}
-
 .garden-overlay {
 	top: 1956px;
 	background-color: rgb(33, 207, 124);
 	background-color: rgba(33, 207, 124, 0.75);
 }
 
-@media screen and (min-width: 1500px) {
-	.garden-overlay {
-		top: 2730px;
-	}
-}
-
-
 .aq-overlay {
 	top: 2604px;
 	background-color: rgb(30, 64, 230);
 	background-color: rgba(30, 64, 230, 0.75);
 }
-
-@media screen and (min-width: 1500px) {
-	.aq-overlay {
-		top: 3640px;
-	}
-}
-
 
 .overlay {
 	width: 0%;
@@ -442,12 +270,6 @@ body {
 .lng-txt-overlay-content {
 	top: 10%;
 	width: 878px;
-}
-
-@media screen and (min-width: 1500px) {
-	.lng-txt-overlay-content {
-		top: 11%
-	}
 }
 
 .overlay a {
@@ -490,12 +312,6 @@ body {
 	transition: 0.5s;
 }
 
-@media screen and (min-width: 1500px) {
-	.project-description {
-		font-size: 45px;
-	}
-}
-
 .project-title {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 800;
@@ -505,12 +321,6 @@ body {
 	margin: -43px 156px 7px 0px;
 	padding-left: 19px;
 	color: white;
-}
-
-@media screen and (min-width: 1500px) {
-	.project-title {
-		font-size: 162px;
-	}
 }
 
 .project-description-container {
@@ -528,12 +338,6 @@ body {
 	font-weight: 700;
 	color: #979797;
 }
-@media screen and (min-width: 1500px) {
-	#name {
-		width: 710px;
-		height: 100%;
-	}
-}
 
 #email-address {
 	resize: none;
@@ -544,24 +348,9 @@ body {
 	font-weight: 700;
 	color: #979797;
 }
-@media screen and (min-width: 1500px) {
-	#email-address {
-		margin-bottom: 10px;
-		margin-top: 10px;
-		width: 710px;
-		font-weight: 700;
-	}
-}
 
-
-.contact-about-padding-div {
+.contact-padding-div {
 	padding: 135px 0px 0px 0px;
-}
-
-@media screen and (min-width: 1500px) {
-.contact-about-padding-div {
-	padding: 948px 0px 0px 0px;
-	}
 }
 
 .contact-content {
@@ -579,15 +368,6 @@ body {
 	position: absolute;
 }
 
-@media screen and (min-width: 1500px) {
-	.contact-content {
-		font-size: 200px;
-		line-height: 201px;
-		left: -560px;
-		bottom: 270px;
-	}
-}
-
 input[type=text],
 [type=email],
 select,
@@ -603,20 +383,11 @@ textarea {
 	outline: none;
 }
 
-
 textarea {
 	height: 309px;
 	width: 530px;
 	color: #979797;
 	overflow-y: auto;
-}
-
-@media screen and (min-width: 1500px) {
-	textarea {
-		height: 469px;
-		width: 710px;
-		margin-bottom: 5px;
-	}
 }
 
 ::placeholder {
@@ -661,39 +432,18 @@ input[type=submit] {
 	outline: none;
 }
 
-@media screen and (min-width: 1500px) {
-	input[type=submit] {
-	font-size: 28px;
-	margin-right: -175px;
-	}
-}
-
 input[type=submit]:hover {
 	background-color: whitesmoke;
 	opacity: 1;
 	color: #5700bb;
 }
 
-
-@media screen and (min-width: 1500px) {
-form {
-	top: 236px;
-    right: 260px;
-    position: absolute;
-	}
-}
 /* Style the container */
 .container {
 	border-radius: 5px;
 	padding: 11px 20px 19px 462px;
 }
-@media screen and (min-width: 1500px) {
-.container {
-	padding: 11px 922px 19px 462px;
-	}	
-}
 	
-
 /* Floating column for labels: 25% width */
 .col-25 {
 	float: left;
@@ -713,16 +463,6 @@ form {
 	content: "";
 	display: table;
 	clear: both;
-}
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-
-	.col-25,
-	.col-75,
-	input[type=submit] {
-		width: 100%;
-		margin-top: 0;
-	}
 }
 
 ::-webkit-scrollbar {
@@ -744,4 +484,171 @@ form {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
 	background: #5700bb;
+}
+
+/*Responsive Display for Screens at least 1400px (Most Monitors) */
+@media screen and (min-width: 1400px) {
+	#monogram {
+		width: 349.02px;
+		height: 180.02px;
+		top: 9px;
+		left: 16px;
+		position: absolute;
+		cursor: pointer;
+	}
+
+	.home-content {
+		font-size: 190px;
+		line-height: 205px;
+		margin-left: -139px;
+		margin-bottom: 0px;
+		margin-top: 185px;
+	}
+
+	.display {
+		line-height: 162px;
+	}
+
+	.main {
+		background: #7600ff url('../assets/vector.svg') no-repeat bottom right;
+	}
+
+	.padding-div {
+		padding-top: 0px;
+		padding-bottom: 110px;
+		padding-left: 160px;
+	}
+
+	#garden-temple {
+		background-repeat: round;
+	}
+
+	#top-nav {
+		font-size: 43px;
+	}
+
+	#rally-logo {
+		width: 66%;
+		left: 330px;
+		top: 144px;
+	}
+
+	#nexus-logo {
+		width: 58%;
+		left: 472px;
+		top: 105px;
+	}
+
+	#garden-logo {
+		width: 60%;
+		left: 420px;
+		top: 105px;
+	}
+
+	#aq-logo {
+		width: 50%;
+		left: 460px;
+		top: 125px;
+	}
+
+	.visit-button {
+		font-size: 46px;
+		padding: 9px 87px;
+	}
+
+	.about-button {
+		font-size: 43px;
+		padding: 9px 16px;
+	}
+
+	.button-container {
+		bottom: 140px;
+		left: 617px;
+	}
+
+	.dev-des-container {
+		bottom: -415px;
+		left: 616px;
+	}
+
+	.dev-des-text {
+		font-size: 51px;
+	}
+
+	.dev-des-circle {
+		width: 56px;
+	}
+
+	.nexus-overlay {
+		top: 1956px;
+	}
+
+	.garden-overlay {
+		top: 2936px;
+	}
+
+	.aq-overlay {
+		top: 3911px;
+	}
+
+	.lng-txt-overlay-content {
+		top: 11%
+	}
+
+	.project-description {
+		font-size: 45px;
+	}
+
+	.project-title {
+		font-size: 162px;
+	}
+
+	#name {
+		width: 710px;
+		height: 100%;
+	}
+
+	#email-address {
+		margin-bottom: 10px;
+		margin-top: 10px;
+		width: 710px;
+		font-weight: 700;
+	}
+
+	.contact-padding-div {
+		padding: 948px 0px 0px 0px;
+	}
+
+	.about-padding-div {
+		padding: 948px 0px 0px 0px;
+	}
+
+	.contact-content {
+		font-size: 200px;
+		line-height: 201px;
+		left: -560px;
+		bottom: 270px;
+	}
+
+	textarea {
+		height: 469px;
+		width: 710px;
+		margin-bottom: 5px;
+	}
+	
+	input[type=submit] {
+		font-size: 28px;
+		margin-right: -175px;
+	}
+	
+	form {
+		top: 236px;
+		right: 260px;
+		position: absolute;
+	}
+
+	.container {
+		padding: 11px 922px 19px 462px;
+		}	
+
 }
