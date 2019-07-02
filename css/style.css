@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,600,700,800,900&display=swap');
 
 html,
 body {
@@ -438,6 +438,74 @@ input[type=submit]:hover {
 	color: #5700bb;
 }
 
+#about-pic{
+	position: absolute;
+	width: 281px;
+    top: 91px;
+	padding-left: 40px;
+}
+
+.about-padding-div {
+	padding: 645px 0px 0px 0px
+}
+
+#about-text-container {
+    position: absolute;
+	width: 911px;
+    border-radius: 30px;
+    top: 110px;
+	right: 10px;
+}
+
+#about-header{
+	color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    position: absolute;
+    top: 1px;
+    right: 504px;
+    white-space: nowrap;}
+
+#about-text {
+	background: rgba(118, 0, 255, .64);
+	color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 36px;
+    box-sizing: border-box;
+    resize: none;
+	outline: none;
+	font-weight: 600;
+    font-size: 30px;
+}
+
+.skils-container {
+	position: absolute;
+	bottom: 10px;
+	left: 191px;
+}
+
+.skill-text {
+	color: white;
+    font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 45px;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+#skill-icons {
+	height: 100%;
+    width: 870px;
+    align-items: center;
+	vertical-align: middle;
+	padding-left: 10px;
+}
+
 /* Style the container */
 .container {
 	border-radius: 5px;
@@ -616,10 +684,6 @@ input[type=submit]:hover {
 	}
 
 	.contact-padding-div {
-		padding: 948px 0px 0px 0px;
-	}
-
-	.about-padding-div {
 		padding: 948px 0px 0px 0px;
 	}
 
