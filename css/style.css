@@ -556,7 +556,10 @@ input[type=submit]:hover {
 }
 
 /*Responsive Display for Screens at least 1400px (Most Monitors) */
-@media screen and (min-width: 1400px) {
+@media screen 
+and (min-width: 1400px) 
+and (max-width: 2000px) 
+{
 	#monogram {
 		width: 349.02px;
 		height: 180.02px;
