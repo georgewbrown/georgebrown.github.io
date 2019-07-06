@@ -27,7 +27,6 @@ body {
 	margin: -9px 156px 7px 0px;
 	padding-left: 19px;
 	color: white;
-	animation-duration: 3s;
 }
 
 .padding-div {
@@ -555,7 +554,89 @@ input[type=submit]:hover {
 	background: #5700bb;
 }
 
-/*Responsive Display for Screens at least 1400px (Most Monitors) */
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) {
+	  
+
+  }
+
+/*Responsive Display for Laptops/Screens between 1020px and 2000px*/
+@media screen 
+and (min-width: 1020px) 
+and (max-width: 1199px) 
+{
+	.home-content {
+		font-size: 98px;
+		line-height: 111px;
+		margin: -9px 156px 7px 0px;
+		padding-left: 19px;
+	}
+	.main {
+		background: #7600ff url(../assets/vector.svg) no-repeat bottom right;
+		background-size: auto 100%;
+	}
+
+	#top-nav {
+		font-size: 36px;
+	}
+
+	#monogram {
+		width: 241.02px;
+		height: 156.16px;
+		top: 8px;
+		left: 21px;
+	}
+
+	.button-container {
+		bottom: 184px;
+		left: 282px;
+	}
+
+	#rally-logo {
+		width: 82%;
+		left: 95px;
+		top: 123px;
+	}
+
+	.visit-button {
+		font-size: 34px;
+}
+
+	.about-button {
+		font-size: 33px;
+}
+
+.dev-des-container {
+    bottom: -245px;
+    left: 245px;
+}
+
+.dev-des-circle {
+    width: 43px;
+}
+
+.dev-des-text {
+    font-size: 38px;
+}
+
+.project-title {
+    font-size: 103px;
+    margin: -43px 156px -4px 0px;
+}
+
+.project-description {
+	font-size: 26px;
+}
+
+.nexus-overlay {
+    top: 1535px;
+}
+
+}
+/*Responsive Display for Laptops/Screens between 1400px and 2000px (Most Monitors) */
 @media screen 
 and (min-width: 1400px) 
 and (max-width: 2000px) 
@@ -565,8 +646,6 @@ and (max-width: 2000px)
 		height: 180.02px;
 		top: 9px;
 		left: 16px;
-		position: absolute;
-		cursor: pointer;
 	}
 
 	.home-content {
