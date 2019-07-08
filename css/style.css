@@ -556,24 +556,17 @@ input[type=submit]:hover {
 
 /* ----------- iPad 1, 2, Mini and Air ----------- */
 /* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) {
-	  
-
-  }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {}
 
 /*Responsive Display for Laptops/Screens between 1020px and 2000px*/
-@media screen 
-and (min-width: 1020px) 
-and (max-width: 1199px) 
-{
+@media screen and (min-width: 1020px) and (max-width: 1199px) {
 	.home-content {
 		font-size: 98px;
 		line-height: 111px;
 		margin: -9px 156px 7px 0px;
 		padding-left: 19px;
 	}
+
 	.main {
 		background: #7600ff url(../assets/vector.svg) no-repeat bottom right;
 		background-size: auto 100%;
@@ -627,103 +620,101 @@ and (max-width: 1199px)
 
 	.visit-button {
 		font-size: 34px;
-}
+	}
 
 	.about-button {
 		font-size: 33px;
+	}
+
+	.dev-des-container {
+		bottom: -245px;
+		left: 245px;
+	}
+
+	.dev-des-circle {
+		width: 43px;
+	}
+
+	.dev-des-text {
+		font-size: 38px;
+	}
+
+	.project-title {
+		font-size: 103px;
+		margin: -43px 156px -4px 0px;
+	}
+
+	.project-description {
+		font-size: 26px;
+	}
+
+	.nexus-overlay {
+		top: 1535px;
+	}
+
+	.garden-overlay {
+		top: 2303px;
+	}
+
+	.aq-overlay {
+		top: 3072px;
+	}
+
+	.contact-content {
+		width: 0px;
+		font-size: 90px;
+		line-height: 91px;
+		left: -366px;
+		bottom: 280px;
+	}
+
+	.contact-padding-div {
+		padding: 259px 0px 0px 0px;
+	}
+
+	.container {
+		border-radius: 5px;
+		padding: 11px 20px 19px 272px;
+	}
+
+	.about-padding-div {
+		padding: 766px 0px 0px 0px;
+	}
+
+	.skils-container {
+		bottom: 30px;
+		left: 36px;
+	}
+
+	.skill-text {
+		font-size: 35px;
+	}
+
+	#skill-icons {
+		width: 796px;
+	}
+
+	#about-header {
+		font-size: 36px;
+		top: -9px;
+		right: 204px;
+	}
+
+	.about-text-container {
+		width: 691px;
+		top: 120px;
+		right: 10px;
+	}
+
+	#about-text {
+		padding: 12px;
+		font-size: 29px;
+	}
+
 }
 
-.dev-des-container {
-    bottom: -245px;
-    left: 245px;
-}
-
-.dev-des-circle {
-    width: 43px;
-}
-
-.dev-des-text {
-    font-size: 38px;
-}
-
-.project-title {
-    font-size: 103px;
-    margin: -43px 156px -4px 0px;
-}
-
-.project-description {
-	font-size: 26px;
-}
-
-.nexus-overlay {
-    top: 1535px;
-}
-
-.garden-overlay {
-	top: 2303px;
-}
-
-.aq-overlay {
-	top: 3072px;
-}
-
-.contact-content {
-    width: 0px;
-    font-size: 90px;
-    line-height: 91px;
-    left: -366px;
-    bottom: 280px;
-}
-
-.contact-padding-div {
-    padding: 259px 0px 0px 0px;
-}
-
-.container {
-    border-radius: 5px;
-    padding: 11px 20px 19px 272px;
-}
-
-.about-padding-div {
-    padding: 766px 0px 0px 0px;
-}
-
-.skils-container {
-    bottom: 30px;
-	left: 36px;
-}
-
-.skill-text {
-    font-size: 35px;
-}
-
-#skill-icons {
-	width: 796px;
-}
-
-#about-header {
-    font-size: 36px;
-    top: -9px;
-    right: 204px;
-}
-
-.about-text-container {
-    width: 691px;
-    top: 120px;
-    right: 10px;
-}
-
-#about-text {
-    padding: 12px;
-    font-size: 29px;
-}
-
-}
 /*Responsive Display for Laptops/Screens between 1400px and 2000px (Most Monitors) */
-@media screen 
-and (min-width: 1400px) 
-and (max-width: 2000px) 
-{
+@media screen and (min-width: 1400px) and (max-width: 2000px) {
 	#monogram {
 		width: 349.02px;
 		height: 180.02px;
