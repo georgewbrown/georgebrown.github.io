@@ -555,8 +555,8 @@ input[type=submit]:hover {
 }
 
 /* ----------- iPad 1, 2, Mini and Air ----------- */
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {}
+/* Portrait and Landscape 995px*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {} 
 
 /*Responsive Display for Laptops/Screens between 1020px and 2000px*/
 @media screen and (min-width: 1020px) and (max-width: 1199px) {
@@ -574,7 +574,8 @@ input[type=submit]:hover {
 
 	#air-quality {
 		background: url(../assets/air-quality-port.svg);
-		background-size: auto 87%;
+		/* background-size: auto 87%; */
+		background-size: auto 100%;
 		background-repeat: repeat-y;
 	}
 
@@ -590,31 +591,40 @@ input[type=submit]:hover {
 	}
 
 	.button-container {
-		bottom: 184px;
-		left: 282px;
+		bottom: 154px;
+		left: 260px;
+		/* bottom: 184px; */
+		/* left: 282px; */
 	}
 
 	#rally-logo {
 		width: 82%;
 		left: 95px;
-		top: 123px;
+		/* top: 123px; */
+		top: 53px;
 	}
 
 	#nexus-logo {
-		width: 80%;
-		left: 108px;
+		width: 63%;
+    	left: 235px;
+		/* width: 80%;
+		left: 108px; */
 		top: 87px
 	}
 
 	#garden-logo {
-		width: 76%;
-		left: 141px;
+		width: 59%;
+    	left: 210px;
+		/* width: 76%;
+		left: 141px; */
 		top: 112px;
 	}
 
 	#aq-logo {
-		width: 66%;
-		left: 217px;
+		/* width: 66%;
+		left: 217px; */
+		width: 52%;
+    	left: 262px;
 		top: 112px;
 	}
 
@@ -649,15 +659,18 @@ input[type=submit]:hover {
 	}
 
 	.nexus-overlay {
-		top: 1535px;
+		top: 1289px;
+		/* top: 1535px; */
 	}
 
 	.garden-overlay {
-		top: 2303px;
+		top: 1930px;
+		/* top: 2303px; */
 	}
 
 	.aq-overlay {
-		top: 3072px;
+		top: 2576px;
+		/* top: 3072px; */
 	}
 
 	.contact-content {
@@ -669,7 +682,8 @@ input[type=submit]:hover {
 	}
 
 	.contact-padding-div {
-		padding: 259px 0px 0px 0px;
+		padding: 135px 0px 0px 0px;
+		/* padding: 259px 0px 0px 0px; */
 	}
 
 	.container {
@@ -678,7 +692,8 @@ input[type=submit]:hover {
 	}
 
 	.about-padding-div {
-		padding: 766px 0px 0px 0px;
+		padding: 638px 0px 0px 0px;
+		/* padding: 766px 0px 0px 0px; */
 	}
 
 	.skils-container {
