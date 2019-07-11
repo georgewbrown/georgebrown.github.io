@@ -231,19 +231,19 @@ body {
 }
 
 .nexus-overlay {
-	top: 1316px;
+	top: 1317px;
 	background-color: rgb(100, 177, 255);
 	background-color: rgba(100, 177, 255, 0.75);
 }
 
 .garden-overlay {
-	top: 1956px;
+	top: 1962px;
 	background-color: rgb(33, 207, 124);
 	background-color: rgba(33, 207, 124, 0.75);
 }
 
 .aq-overlay {
-	top: 2604px;
+	top: 2607px;
 	background-color: rgb(30, 64, 230);
 	background-color: rgba(30, 64, 230, 0.75);
 }
@@ -302,6 +302,23 @@ body {
 
 #nav-bar {
 	transition: 0.5s;
+}
+#middle-bar {
+	top: 383px;
+	left: 161px;
+	position: absolute;
+
+}
+#bottom-bar {
+	bottom: 11px;
+	right: 10px;
+	position: absolute;
+}
+#bottom-bar a {
+	text-decoration: none;
+}
+.linkedin-github {
+	width: 30px;
 }
 
 .project-description {
