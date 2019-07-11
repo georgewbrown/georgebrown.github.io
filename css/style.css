@@ -309,14 +309,22 @@ body {
 	position: absolute;
 
 }
+
+#middle-bar a {
+	text-decoration: none;
+}
+
 #bottom-bar {
 	bottom: 11px;
 	right: 10px;
 	position: absolute;
 }
+
 #bottom-bar a {
 	text-decoration: none;
 }
+
+
 .linkedin-github {
 	width: 30px;
 }
@@ -463,7 +471,7 @@ input[type=submit]:hover {
 }
 
 .about-padding-div {
-	padding: 645px 0px 0px 0px
+	padding: 635px 0px 0px 0px
 }
 
 .about-text-container {
@@ -517,7 +525,7 @@ input[type=submit]:hover {
 
 #skill-icons {
 	height: 100%;
-	width: 870px;
+	width: 802px;
 	align-items: center;
 	vertical-align: middle;
 	padding-left: 10px;
@@ -900,6 +908,14 @@ input[type=submit]:hover {
 
 /*Responsive Display for Laptops/Screens between 1400px and 2000px (Most Monitors) */
 @media screen and (min-width: 1400px) and (max-width: 2000px) {
+	.linkedin-github {
+		width: 45px;
+	}
+
+	#middle-bar {
+		top: 503px;
+		left: 241px;
+	}
 	#monogram {
 		width: 349.02px;
 		height: 180.02px;
