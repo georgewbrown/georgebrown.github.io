@@ -558,6 +558,150 @@ input[type=submit]:hover {
 /* Portrait and Landscape 995px*/
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {} 
 
+@media screen and (min-width: 962px) and (max-width: 1019px) {
+	.home-content {
+		font-size: 90px;
+		line-height: 101px;
+	}
+
+	.button-container {
+		bottom: 124px;
+		left: 286px;
+	}
+	#rally-logo {
+		width: 78%;
+		left: 132px;
+	}
+	#nexus-logo {
+		left: 196px;
+	}
+	#garden-logo{
+		width: 69%;
+		left: 176px;
+    	top: 77px;
+	}
+	#aq-logo {
+		width: 59%;
+    left: 236px;
+    top: 77px;
+}
+	
+	.dev-des-container {
+		bottom: -245px;
+		left: 245px;
+	}
+
+	.dev-des-circle {
+		width: 41px;
+	}
+
+	.dev-des-text {
+		font-size: 34px;
+	}
+
+	.project-title {
+		font-size: 103px;
+		margin: -43px 156px -4px 0px;
+	}
+
+	.project-description {
+		font-size: 26px;
+	}
+
+	.garden-overlay {
+		top: 1807px;
+	}
+
+	.aq-overlay {
+		top: 2426px;
+	}
+
+	.nexus-overlay {
+		top: 1203px;
+	}
+
+	.contact-content {
+		width: 0px;
+		font-size: 91px;
+		line-height: 85px;
+		left: -311px;
+		bottom: 210px;
+	}
+
+	.contact-padding-div {
+		padding: 572px 0px 0px 0px;
+	}
+
+	.container {
+		border-radius: 5px;
+		padding: 11px 20px 19px 272px;
+	}
+
+	
+	#email-address,
+	#name,
+	textarea {
+		width: 480px;
+	}
+
+	input[type=text], [type=email], select, textarea {
+		border-radius: 46px;
+		font-size: 19px;
+	}
+
+	input[type=submit] {
+		margin-top: 4px;
+		left: 481px;
+		position: absolute;
+	}
+
+	form {
+	position: absolute;
+    top: 109px;
+    right: 140px;
+	}
+	.about-padding-div {
+		padding: 638px 0px 0px 0px;
+		/* padding: 766px 0px 0px 0px; */
+	}
+
+	.skils-container {
+		bottom: 30px;
+		left: 36px;
+	}
+
+	.skill-text {
+		font-size: 35px;
+	}
+
+	#skill-icons {
+		width: 696px;
+	}
+
+	#about-pic {
+		width: 241px;
+		top: 100px;
+		padding-left: 30px;
+	}
+
+	#about-header {
+		font-size: 34px;
+		top: -9px;
+		right: 204px;
+	}
+
+	.about-text-container {
+		width: 621px;
+		top: 120px;
+		right: 10px;
+	}
+
+	#about-text {
+		padding: 12px;
+		font-size: 22px;
+	}
+
+}
 /*Responsive Display for Laptops/Screens between 1020px and 2000px*/
 @media screen and (min-width: 1020px) and (max-width: 1199px) {
 	.home-content {
