@@ -7,7 +7,10 @@ $(document).ready(function () {
 		navigation: true,
 		navigationPosition: 'right',
 		keyboardScrolling: true,
-		controlArrows: true,
+		controlArrows: false,
+		slidesNavigation:false,
+		scrollHorizontally: true,
+		anchors:['home'],
 		onLeave: () => {
 			for (i = 0; i < overlay.length; i++) {
 				overlay[i].style.width = "0%";

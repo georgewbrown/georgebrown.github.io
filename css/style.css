@@ -24,7 +24,7 @@ body {
 	font-size: 120px;
 	letter-spacing: 2px;
 	line-height: 141px;
-	margin: -9px 156px 7px 0px;
+	margin: -251px 156px 7px 0px;
 	padding-left: 19px;
 	color: white;
 }
@@ -50,9 +50,30 @@ body {
 }
 
 .main {
-	background: #7600ff url('../assets/vector.svg') no-repeat bottom right;
-	background-size: auto 114%;
+	animation: gradientShuffle 35s ease infinite;
+    background: linear-gradient(45deg, #FF00BA, #7600FF,#49E8D9);
+	background-size: 100vw 700vh;
+	transition: 0.3s ease background-position;
+	min-height: 100%;
+	min-width: 100%;
 }
+
+@keyframes gradientShuffle {
+    0%,
+    5% {
+      background-position: 0% 90%;
+    }
+
+    45%,
+    55% {
+      background-position: 0% 10%;
+    }
+
+    95%,
+    100% {
+      background-position: 0% 90%;
+    }
+  }
 
 #rally {
 	background: url(../assets/Reinhart-Optimized.png);
@@ -113,6 +134,45 @@ body {
 	text-decoration: none;
 }
 
+.top-nav-button ul { 
+	margin: 150px auto 0; 
+	padding: 0; 
+	list-style: none; 
+	display: table;
+	width: 600px;
+	text-align: center;
+  }
+  .top-nav-button li { 
+	display: table-cell; 
+	position: relative; 
+	padding: 15px 0;
+  }
+  .top-nav-button a {
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	
+	display: inline-block;
+	padding: 15px 20px;
+	position: relative;
+  }
+  .top-nav-button a:after {    
+	background: none repeat scroll 0 0 transparent;
+	bottom: 0;
+	content: "";
+	display: block;
+	height: 2px;
+	left: 50%;
+	position: absolute;
+	background: #fff;
+	transition: width 0.3s ease 0s, left 0.3s ease 0s;
+	width: 0;
+  }
+  a:hover:after { 
+	width: 100%; 
+	left: 0; 
+  }
+
 .section {
 	position: relative;
 }
@@ -131,7 +191,7 @@ body {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 65%;
+	width: 62%;
 	position: absolute;
 	left: 286px;
 	top: 77px;
@@ -151,9 +211,9 @@ body {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 54%;
-	position: absolute;
-	left: 303px;
+    width: 52%;
+    position: absolute;
+	left: 312px;
 	top: 103px;
 }
 
@@ -164,7 +224,7 @@ body {
 	font-weight: 430;
 	padding: 9px 46px;
 	text-align: center;
-	border: 6px solid white;
+	border: 2.5px solid white;
 	letter-spacing: 2px;
 	outline: none;
 	cursor: pointer;
@@ -181,7 +241,7 @@ body {
 	font-size: 26.5px;
 	padding: 9px 6px;
 	text-align: center;
-	border: 6px solid white;
+	border: 2.5px solid white;
 	margin-left: 18px;
 	font-weight: 480;
 	letter-spacing: 1px;
@@ -190,12 +250,12 @@ body {
 }
 
 .button-container {
-	bottom: 74px;
+	bottom: 91px;
 	margin-left: auto;
 	margin-right: auto;
 	position: absolute;
 	display: block;
-	left: 406px;
+    left: 438px;
 }
 
 .dev-des-container {
@@ -231,26 +291,23 @@ body {
 }
 
 .nexus-overlay {
-	top: 1317px;
 	background-color: rgb(100, 177, 255);
 	background-color: rgba(100, 177, 255, 0.75);
 }
 
 .garden-overlay {
-	top: 1962px;
 	background-color: rgb(33, 207, 124);
 	background-color: rgba(33, 207, 124, 0.75);
 }
 
 .aq-overlay {
-	top: 2607px;
 	background-color: rgb(30, 64, 230);
 	background-color: rgba(30, 64, 230, 0.75);
 }
 
 .overlay {
 	width: 0%;
-	height: 100%;
+	height: 100vh;
 	position: fixed;
 	z-index: 1;
 	left: 0;
@@ -305,7 +362,7 @@ body {
 }
 #middle-bar {
 	top: 383px;
-	left: 161px;
+	left: 147px;
 	position: absolute;
 
 }
@@ -365,6 +422,7 @@ body {
 }
 
 #email-address {
+	margin-top: 10px;
 	resize: none;
 	outline: none;
 	border-radius: 16px;
@@ -375,22 +433,21 @@ body {
 }
 
 .contact-padding-div {
-	padding: 136px 0px 0px 0px;
+	padding: 96px 0px 0px 0px;
 }
 
 .contact-content {
-	width: 580px;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-	font-size: 120px;
-	letter-spacing: 2px;
-	line-height: 141px;
-	right: 670px;
-	margin: auto;
-	padding-left: 36px;
-	color: white;
-	bottom: 160px;
-	position: absolute;
+    width: 580px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 120px;
+    letter-spacing: 2px;
+    line-height: 141px;
+    margin: auto;
+    padding-left: 36px;
+    color: white;
+    bottom: 160px;
+    position: absolute;
 }
 
 input[type=text],
@@ -443,24 +500,25 @@ label {
 
 /* Style the submit button */
 input[type=submit] {
-	background-color: white;
-	color: white;
-	padding: 12px 20px;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-	border: none;
-	border-radius: 50px;
-	cursor: pointer;
-	font-size: 18px;
-	color: #7600ff;
-	float: right;
+	background-color: transparent;
+    border: 1px solid white;
+    padding: 12px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    /* border: none; */
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+	margin-top: 10px;
+	position: relative;
+    right: -623px;
 	outline: none;
 }
 
 input[type=submit]:hover {
-	background-color: whitesmoke;
-	opacity: 1;
-	color: #5700bb;
+	opacity: 0.9;
+	
 }
 
 #about-pic {
@@ -475,26 +533,26 @@ input[type=submit]:hover {
 }
 
 .about-text-container {
-	position: absolute;
-	width: 911px;
-	border-radius: 30px;
-	top: 120px;
-	right: 10px;
+    position: absolute;
+    width: 867px;
+    border-radius: 30px;
+    top: 120px;
+	right: 70px;
 }
 
 #about-header {
 	color: white;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 40px;
-	font-weight: 800;
-	position: absolute;
-	top: -9px;
-	right: 374px;
+    font-size: 41px;
+    font-weight: 800;
+    position: absolute;
+    top: -6px;
+	right: 320px;
 	white-space: nowrap;
 }
 
 #about-text {
-	background: rgba(118, 0, 255, .64);
+	background: rgba(255,255,255,0.15);
 	color: white;
 	font-family: 'Montserrat', sans-serif;
 	width: 100%;
@@ -509,9 +567,9 @@ input[type=submit]:hover {
 }
 
 .skils-container {
-	position: absolute;
-	bottom: 10px;
-	left: 191px;
+    position: absolute;
+    bottom: -141px;
+	left: -128px;
 }
 
 .skill-text {
@@ -524,11 +582,11 @@ input[type=submit]:hover {
 }
 
 #skill-icons {
-	height: 100%;
-	width: 802px;
-	align-items: center;
-	vertical-align: middle;
-	padding-left: 10px;
+    height: 100%;
+    width: 673px;
+    align-items: center;
+    vertical-align: middle;
+    padding-left: 10px;
 }
 
 /* Style the container */
