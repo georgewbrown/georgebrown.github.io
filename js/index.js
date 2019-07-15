@@ -10,6 +10,7 @@ $(document).ready(function () {
 		controlArrows: false,
 		slidesNavigation:false,
 		scrollHorizontally: true,
+		responsiveSlides: true,
 		anchors:['home'],
 		onLeave: () => {
 			for (i = 0; i < overlay.length; i++) {

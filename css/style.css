@@ -8,6 +8,14 @@ body {
 	padding: 0;
 }
 
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: white;
+}
+
 #monogram {
 	width: 218.02px;
 	height: 136.16px;
@@ -100,7 +108,7 @@ body {
 }
 
 .garden-temple-btn {
-	background-color: rgba(33, 207, 124, 0.7) !important;
+	background-color: rgba(33, 207, 124, 0.3) !important;
 }
 
 #middle-button {
@@ -255,7 +263,7 @@ body {
 	margin-right: auto;
 	position: absolute;
 	display: block;
-    left: 438px;
+	left: 422px;
 }
 
 .dev-des-container {
@@ -637,10 +645,6 @@ input[type=submit]:hover {
 	background: #5700bb;
 }
 
-/* ----------- iPad 1, 2, Mini and Air ----------- */
-/* Portrait and Landscape 995px*/
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {}
-
 @media screen and (min-width: 962px) and (max-width: 1019px) {
 	.home-content {
 		font-size: 90px;
@@ -753,7 +757,6 @@ input[type=submit]:hover {
 
 	.about-padding-div {
 		padding: 638px 0px 0px 0px;
-		/* padding: 766px 0px 0px 0px; */
 	}
 
 	.skils-container {
@@ -799,19 +802,13 @@ input[type=submit]:hover {
 	.home-content {
 		font-size: 98px;
 		line-height: 111px;
-		margin: -9px 156px 7px 0px;
+		margin: -246px 156px 7px 0px;
 		padding-left: 19px;
-	}
-
-	.main {
-		background: #7600ff url(../assets/vector.svg) no-repeat bottom right;
-		background-size: auto 100%;
 	}
 
 	#air-quality {
 		background: url(../assets/air-quality-port.svg);
-		/* background-size: auto 87%; */
-		background-size: auto 100%;
+		background-size: auto 112%;
 		background-repeat: repeat-y;
 	}
 
@@ -828,40 +825,44 @@ input[type=submit]:hover {
 
 	.button-container {
 		bottom: 154px;
-		left: 260px;
-		/* bottom: 184px; */
-		/* left: 282px; */
+		left: 281px;
 	}
 
 	#rally-logo {
 		width: 82%;
 		left: 95px;
-		/* top: 123px; */
-		top: 53px;
+		top: 154px;
 	}
 
 	#nexus-logo {
-		width: 63%;
-		left: 235px;
-		/* width: 80%;
-		left: 108px; */
-		top: 87px
+		width: 80%;
+		left: 125px;
+		top: 105px;
 	}
 
 	#garden-logo {
-		width: 59%;
-		left: 210px;
-		/* width: 76%;
-		left: 141px; */
-		top: 112px;
+		width: 79%;
+		left: 122px;
+		top: 135px;
 	}
 
 	#aq-logo {
-		/* width: 66%;
-		left: 217px; */
-		width: 52%;
-		left: 262px;
-		top: 112px;
+		width: 66%;
+		left: 187px;
+		top: 156px;
+	}
+
+	.lng-txt-overlay-content {
+		top: 10%;
+		margin-top: 93px;
+		width: 878px;
+	}
+	
+	#about-pic {
+		position: absolute;
+		width: 254px;
+		top: 156px;
+		padding-left: 28px;
 	}
 
 	.visit-button {
@@ -894,26 +895,10 @@ input[type=submit]:hover {
 		font-size: 26px;
 	}
 
-	.nexus-overlay {
-		top: 1289px;
-		/* top: 1535px; */
-	}
-
-	.garden-overlay {
-		top: 1930px;
-		/* top: 2303px; */
-	}
-
-	.aq-overlay {
-		top: 2576px;
-		/* top: 3072px; */
-	}
-
 	.contact-content {
-		width: 0px;
-		font-size: 90px;
+		padding-left: 10px;
+		font-size: 83px;
 		line-height: 91px;
-		left: -366px;
 		bottom: 280px;
 	}
 
@@ -924,7 +909,7 @@ input[type=submit]:hover {
 
 	.container {
 		border-radius: 5px;
-		padding: 11px 20px 19px 272px;
+		padding: 11px 20px 19px 232px
 	}
 
 	.about-padding-div {
@@ -933,8 +918,8 @@ input[type=submit]:hover {
 	}
 
 	.skils-container {
-		bottom: 30px;
-		left: 36px;
+		bottom: -130px;
+		left: -165px;
 	}
 
 	.skill-text {
@@ -942,19 +927,19 @@ input[type=submit]:hover {
 	}
 
 	#skill-icons {
-		width: 796px;
+		width: 616px;
 	}
 
 	#about-header {
 		font-size: 36px;
-		top: -9px;
-		right: 204px;
+		top: -3px;
+		right: 167px;
 	}
 
 	.about-text-container {
-		width: 691px;
+		width: 652px;
 		top: 120px;
-		right: 10px;
+		right: 80px;
 	}
 
 	#about-text {
@@ -966,14 +951,14 @@ input[type=submit]:hover {
 
 /*Responsive Display for Laptops/Screens between 1400px and 2000px (Most Monitors) */
 @media screen and (min-width: 1400px) and (max-width: 2000px) {
+	.slide {
+		position: relative;
+	}
+
 	.linkedin-github {
 		width: 45px;
 	}
 
-	#middle-bar {
-		top: 503px;
-		left: 241px;
-	}
 	#monogram {
 		width: 349.02px;
 		height: 180.02px;
@@ -984,23 +969,11 @@ input[type=submit]:hover {
 	.home-content {
 		font-size: 190px;
 		line-height: 205px;
-		margin-left: -139px;
-		margin-bottom: 0px;
-		margin-top: 185px;
+		padding-left: 29px;
 	}
 
 	.display {
 		line-height: 162px;
-	}
-
-	.main {
-		background: #7600ff url('../assets/vector.svg') no-repeat bottom right;
-	}
-
-	.padding-div {
-		padding-top: 0px;
-		padding-bottom: 110px;
-		padding-left: 160px;
 	}
 
 	#garden-temple {
@@ -1046,8 +1019,8 @@ input[type=submit]:hover {
 	}
 
 	.button-container {
-		bottom: 140px;
-		left: 617px;
+		bottom: 215px;
+		left: 594px;
 	}
 
 	.dev-des-container {
@@ -1061,18 +1034,6 @@ input[type=submit]:hover {
 
 	.dev-des-circle {
 		width: 56px;
-	}
-
-	.nexus-overlay {
-		top: 1956px;
-	}
-
-	.garden-overlay {
-		top: 2936px;
-	}
-
-	.aq-overlay {
-		top: 3911px;
 	}
 
 	.lng-txt-overlay-content {
@@ -1100,13 +1061,13 @@ input[type=submit]:hover {
 	}
 
 	.contact-padding-div {
-		padding: 948px 0px 0px 0px;
+		padding: 80px 0px 0px 568px;
 	}
 
 	.contact-content {
 		font-size: 200px;
 		line-height: 201px;
-		left: -560px;
+		left: -4px;
 		bottom: 270px;
 	}
 
@@ -1118,17 +1079,16 @@ input[type=submit]:hover {
 
 	input[type=submit] {
 		font-size: 28px;
-		margin-right: -175px;
+		margin-left: -58px;
 	}
 
 	form {
 		top: 236px;
 		right: 260px;
-		position: absolute;
 	}
 
 	.container {
-		padding: 11px 922px 19px 462px;
+		padding: 11px 922px 19px 532px;
 	}
 
 	.about-padding-div {
@@ -1137,15 +1097,15 @@ input[type=submit]:hover {
 
 	#about-pic {
 		position: absolute;
-		width: 371px;
-		top: 111px;
+		width: 384px;
+		top: 163px;
 		padding-left: 90px;
 	}
 
 	.about-text-container {
 		width: 1331px;
 		top: 200px;
-		right: 100px;
+		right: 80px;
 	}
 
 	#about-text {
@@ -1160,8 +1120,8 @@ input[type=submit]:hover {
 	}
 
 	.skils-container {
-		bottom: 10px;
-		left: 281px;
+		bottom: -210px;
+		left: -269px;
 	}
 
 	.skill-text {
@@ -1169,6 +1129,6 @@ input[type=submit]:hover {
 	}
 
 	#skill-icons {
-		width: 1270px;
+		width: 1110px;
 	}
 }
