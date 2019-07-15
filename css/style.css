@@ -295,22 +295,22 @@ a:visited {
 
 .rally-overlay {
 	background-color: rgb(34, 34, 34);
-	background-color: rgba(34, 34, 34, 0.75);
+	background-color: rgba(34, 34, 34, 0.95);
 }
 
 .nexus-overlay {
 	background-color: rgb(100, 177, 255);
-	background-color: rgba(100, 177, 255, 0.75);
+	background-color: rgba(100, 177, 255, 0.95);
 }
 
 .garden-overlay {
 	background-color: rgb(33, 207, 124);
-	background-color: rgba(33, 207, 124, 0.75);
+	background-color: rgba(33, 207, 124, 0.95);
 }
 
 .aq-overlay {
 	background-color: rgb(30, 64, 230);
-	background-color: rgba(30, 64, 230, 0.75);
+	background-color: rgba(30, 64, 230, 0.95);
 }
 
 .overlay {
