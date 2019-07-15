@@ -645,6 +645,9 @@ input[type=submit]:hover {
 	background: #5700bb;
 }
 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {} 
+
 @media screen and (min-width: 962px) and (max-width: 1019px) {
 	.home-content {
 		font-size: 90px;
