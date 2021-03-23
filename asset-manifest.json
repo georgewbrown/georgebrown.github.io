@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/georgewbrown.github.io/static/css/main.4584b2a6.chunk.css",
+    "main.js": "/georgewbrown.github.io/static/js/main.3bc780b9.chunk.js",
+    "main.js.map": "/georgewbrown.github.io/static/js/main.3bc780b9.chunk.js.map",
+    "runtime-main.js": "/georgewbrown.github.io/static/js/runtime-main.3b37c6a7.js",
+    "runtime-main.js.map": "/georgewbrown.github.io/static/js/runtime-main.3b37c6a7.js.map",
+    "static/js/2.32f90313.chunk.js": "/georgewbrown.github.io/static/js/2.32f90313.chunk.js",
+    "static/js/2.32f90313.chunk.js.map": "/georgewbrown.github.io/static/js/2.32f90313.chunk.js.map",
+    "static/js/3.820d2061.chunk.js": "/georgewbrown.github.io/static/js/3.820d2061.chunk.js",
+    "static/js/3.820d2061.chunk.js.map": "/georgewbrown.github.io/static/js/3.820d2061.chunk.js.map",
+    "index.html": "/georgewbrown.github.io/index.html",
+    "static/css/main.4584b2a6.chunk.css.map": "/georgewbrown.github.io/static/css/main.4584b2a6.chunk.css.map",
+    "static/js/2.32f90313.chunk.js.LICENSE.txt": "/georgewbrown.github.io/static/js/2.32f90313.chunk.js.LICENSE.txt",
+    "static/media/Path1.b83597f0.svg": "/georgewbrown.github.io/static/media/Path1.b83597f0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3b37c6a7.js",
+    "static/js/2.32f90313.chunk.js",
+    "static/css/main.4584b2a6.chunk.css",
+    "static/js/main.3bc780b9.chunk.js"
+  ]
+}
